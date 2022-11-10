@@ -1,0 +1,19 @@
+[default]
+
+SQLALCHEMY_DATABASE_URI = "postgresql://postgres:root@localhost/centro"
+
+TITELE= "centro de formação visãofuturo"
+
+SECRET_KEY = "SECRET_KEY"
+
+
+
+
+EXTENSIONS = [
+ "src.extension.command:init_app",
+ "src.extension.database:init_app",
+ "src.blueprint.web:init_app"
+]
+
+
+
