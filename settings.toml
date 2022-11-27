@@ -10,9 +10,12 @@ SECRET_KEY = "SECRET_KEY"
 
 
 EXTENSIONS = [
+ "src.blueprint.restapi:init_app",
  "src.extension.command:init_app",
  "src.extension.database:init_app",
- "src.blueprint.web:init_app"
+ "src.blueprint.web:init_app",
+ 
+
 ]
 
 
